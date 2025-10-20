@@ -179,7 +179,7 @@ class WorkflowParser:
         """
         # 导入语句
         imports = """from typing import Literal, Optional
-import workspace.HumanEval.workflows.template.operator as operator
+from scripts import operators as operator
 from scripts.async_llm import create_llm_instance
 from scripts.evaluator import DatasetType
 """
